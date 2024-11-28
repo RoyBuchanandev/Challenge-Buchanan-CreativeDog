@@ -167,21 +167,21 @@ export default function LoginPage() {
             {error && <span className="text-red-500 text-sm">{error}</span>}
 
             <div className="flex w-full justify-between mt-4 sm:flex-row flex-col text-center sm:text-left">
-  <a
-    href="#"
-    className="text-sm text-black hover:text-blue-700 sm:mr-4"
-  >
-    ¿No tenés cuenta? <span className="text-blue-600">Ingresá acá</span>
-  </a>
-  
-  <a
-    href="#"
-    className="text-sm text-black hover:text-blue-700 sm:ml-4"
-  >
-    Olvidé mi contraseña
-  </a>
-</div>
+              <a
+                href="#"
+                className="text-sm text-black hover:text-blue-700 sm:mr-4"
+              >
+                ¿No tenés cuenta?{" "}
+                <span className="text-blue-600">Ingresá acá</span>
+              </a>
 
+              <a
+                href="#"
+                className="text-sm text-black hover:text-blue-700 sm:ml-4"
+              >
+                Olvidé mi contraseña
+              </a>
+            </div>
           </div>
         </form>
       </div>
