@@ -3,12 +3,36 @@ import React from "react";
 const Header = () => {
   return (
     <header className="absolute top-0 left-0 z-10 w-full px-8 py-4 bg-white flex items-center justify-between">
-      <div className="flex items-center space-x-2">
-        <div className="w-6 h-6 bg-black rounded-md cursor-pointer lg:hidden">
-          <span className="block w-full h-[2px] bg-white"></span>
-          <span className="block w-full h-[2px] bg-white mt-1"></span>
-          <span className="block w-full h-[2px] bg-white mt-1"></span>
-        </div>
+      <div className="flex items-center space-x-2 lg:hidden ">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3 12H21"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M3 6H21"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M3 18H21"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </div>
       <div className="lg:flex-grow flex sm:justify-center lg:justify-start">
         <img
